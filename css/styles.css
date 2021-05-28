@@ -75,6 +75,7 @@ button {
 
 .category-card {
     text-align: center;
+    margin-block-end: 30px;
 }
 @media (max-width: 768px) {
     .menu {
