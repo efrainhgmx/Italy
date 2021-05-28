@@ -27,7 +27,7 @@ button {
 
 /* Header Section */
 .logo-icon {
-    width: 75px;
+    width: 120px;
 }
 
 .search-icon {
@@ -35,6 +35,7 @@ button {
 }
 
 .header-content {
+    height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +46,7 @@ button {
     .menu {
         display: block;
         position: relative;
-        top: 20px;
+        top: 0;
         left: 10px;
         z-index: 1;
         -webkit-user-select: none;
@@ -113,9 +114,6 @@ button {
         transform: rotate(-45deg) translate(0, -1px);
     } 
     
-    
-    
-    
      .menu-list {
         position: absolute;
         width: 300px;
@@ -143,4 +141,5 @@ button {
     
     .menu input:checked ~ ul {
         transform: none;
+    }
 }
