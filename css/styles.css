@@ -16,6 +16,10 @@ img {
     width: 100%;
 }
 
+h2 {
+    font-weight: 400;
+}
+
 p {
     font-size: 1.3rem;
 }
@@ -23,6 +27,14 @@ p {
 .header-content,
 button {
     background-color: #000000;
+}
+
+button {
+    color: white;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
 }
 
 /* Header Section */
@@ -52,6 +64,18 @@ button {
     background-size: cover;
 }
 
+.category-section h2 {
+    text-align: center;
+}
+
+.category-image {
+    width: 280px;
+    margin: auto;
+}
+
+.category-card {
+    text-align: center;
+}
 @media (max-width: 768px) {
     .menu {
         display: block;
