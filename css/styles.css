@@ -24,3 +24,19 @@ p {
 button {
     background-color: #000000;
 }
+
+/* Header Section */
+.logo-icon {
+    width: 75px;
+}
+
+.search-icon {
+    width: 25px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
