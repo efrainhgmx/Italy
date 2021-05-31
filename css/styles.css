@@ -3,6 +3,10 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --light-gray: #1c1b1b;
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -87,6 +91,38 @@ button {
     text-align: center;
 }
 
+p span {
+    color: var(--light-gray);
+    opacity: 0.8;
+}
+
+.product-description a {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin-top: 15px;
+}
+
+.buttons-container {
+    margin: auto;
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.buttons-container button {
+    width: 75px;
+    border: 1px solid rgba(28, 27, 27, 0.8);
+    color: var(--light-gray);
+    opacity: 0.8;
+    background: none;
+}
+
+.buttons-container button:hover {
+    cursor: pointer;
+    border-color: var(--light-gray);
+    opacity: 1;
+}
 
 @media (max-width: 768px) {
     .menu {
