@@ -5,6 +5,8 @@ html {
 
 :root {
     --light-gray: #1c1b1b;
+    --silver-color: linear-gradient(231.91deg, #9E9E9E 27.13%, #E4E4E4 80.75%), #C4C4C4;
+    --gold-color: linear-gradient(312.66deg, #EFD48A 43.37%, #BF9740 70.06%), #D6B05E;
 }
 
 body {
@@ -135,7 +137,7 @@ p span {
     height: 26px;
     border: 2px solid white;
     box-shadow: 2px 3px 5px 0;
-    margin-inline: 15px;
+    margin-inline: 10px;
 }
 
 .silver,
@@ -147,11 +149,11 @@ p span {
 }
 
 .silver {
-   background: linear-gradient(231.91deg, #9E9E9E 27.13%, #E4E4E4 80.75%), #C4C4C4;
+   background: var(--silver-color);
 }
 
 .gold {
-    background: linear-gradient(312.66deg, #EFD48A 43.37%, #BF9740 70.06%), #D6B05E;;
+    background: var(--gold-color);
 }
 
 @media (max-width: 768px) {
