@@ -123,6 +123,32 @@ p span {
     border-color: var(--light-gray);
     opacity: 1;
 }
+.circle,
+.silver,
+.gold {
+    border-radius: 50%;
+}
+
+.circle {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border: 2px solid white;
+    box-shadow: 2px 3px 5px 0;
+    margin-inline: 15px;
+}
+
+.silver,
+.gold {
+    margin: 2px auto 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgray;
+}
+
+.gold {
+    background: linear-gradient(312.66deg, #EFD48A 43.37%, #BF9740 70.06%), #D6B05E;;
+}
 
 @media (max-width: 768px) {
     .menu {
