@@ -88,12 +88,14 @@ button:hover {
     margin-block-end: 30px;
 }
 
-.product-section figure {
+.product-section figure,
+.accessory-image {
     margin:25px auto;
     width: 280px;
 }
 
-.product-description {
+.product-description,
+.accessories-section {
     text-align: center;
 }
 
@@ -159,6 +161,10 @@ p span {
 
 .gold {
     background: var(--gold-color);
+}
+
+.accessories-section {
+    margin-block: 120px;
 }
 
 @media (max-width: 768px) {
