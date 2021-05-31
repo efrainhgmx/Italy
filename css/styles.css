@@ -104,6 +104,7 @@ p span {
 
 .product-description a {
     display: block;
+    font-size: 1.3rem;
     font-family: 'Inter', sans-serif;
     color: black;
     margin-top: 15px;
