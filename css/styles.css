@@ -43,6 +43,10 @@ button {
     margin-top: 20px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* Header Section */
 .logo-icon {
     width: 120px;
