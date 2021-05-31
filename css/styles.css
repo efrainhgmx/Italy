@@ -146,6 +146,10 @@ p span {
     border: 1px solid lightgray;
 }
 
+.silver {
+   background: linear-gradient(231.91deg, #9E9E9E 27.13%, #E4E4E4 80.75%), #C4C4C4;
+}
+
 .gold {
     background: linear-gradient(312.66deg, #EFD48A 43.37%, #BF9740 70.06%), #D6B05E;;
 }
