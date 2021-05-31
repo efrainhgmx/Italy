@@ -77,6 +77,17 @@ button {
     text-align: center;
     margin-block-end: 30px;
 }
+
+.product-section figure {
+    margin:25px auto;
+    width: 280px;
+}
+
+.product-description {
+    text-align: center;
+}
+
+
 @media (max-width: 768px) {
     .menu {
         display: block;
