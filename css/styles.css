@@ -89,7 +89,8 @@ button:hover {
 }
 
 .product-section figure,
-.accessory-image {
+.accessory-image,
+.vitaly-image {
     margin:25px auto;
     width: 280px;
 }
