@@ -167,6 +167,10 @@ p span {
     margin-block: 120px;
 }
 
+.accessory-card {
+    margin-block-end: 70px;
+}
+
 @media (max-width: 768px) {
     .menu {
         display: block;
