@@ -172,6 +172,9 @@ p span {
 .accessory-card {
     margin-block-end: 70px;
 }
+.posts-section {
+    margin-block-end: 180px;
+}
 
 .post-image {
     margin-block-end: 20px;
