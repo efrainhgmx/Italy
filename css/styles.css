@@ -206,6 +206,15 @@ p span {
     margin-right: 16px;
 }
 
+.learn-more ul {
+    padding: 0;
+    list-style: none;
+}
+
+.learn-more  li {
+    line-height: 2.4rem;
+}
+
 @media (max-width: 768px) {
     .menu {
         display: block;
