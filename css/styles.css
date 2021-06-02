@@ -50,7 +50,8 @@ button,
 }
 
 button:hover
-#subscribe:hover {
+#subscribe:hover,
+.circle:hover {
     cursor: pointer;
 }
 
