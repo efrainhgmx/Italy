@@ -31,11 +31,13 @@ p {
 }
 
 .header-content,
-button {
+button,
+#subscribe {
     background-color: #000000;
 }
 
-button {
+button,
+#subscribe {
     color: white;
     width: 200px;
     padding: 15px;
@@ -43,7 +45,8 @@ button {
     margin-top: 20px;
 }
 
-button:hover {
+button:hover
+#subscribe:hover {
     cursor: pointer;
 }
 
@@ -213,6 +216,16 @@ p span {
 
 .learn-more  li {
     line-height: 2.4rem;
+}
+
+
+.newsletter input {
+    margin-block: 20px;
+}
+
+input[type="email"] {
+    padding: 12px;
+    width: 90%;
 }
 
 @media (max-width: 768px) {
