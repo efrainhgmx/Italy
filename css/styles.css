@@ -173,6 +173,10 @@ p span {
     background: var(--gold-color);
 }
 
+.add-button {
+    width: 90%;
+}
+
 .accessories-section {
     margin-block: 120px;
 }
