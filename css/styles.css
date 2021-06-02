@@ -180,6 +180,32 @@ p span {
     margin-block-end: 20px;
 }
 
+/* Footer Section */
+.footer-content {
+    margin: 20px auto 0;
+    width: 90%;
+    padding-inline: 10px;
+    text-align: left;
+}
+
+.footer-content > div {
+    margin-bottom: 70px;
+}
+
+.experimental-section p {
+    padding-right: 16px;
+}
+
+.social-media {
+    display: flex;
+    width: 104px;
+}
+
+.social-icon {
+    width: 24px;
+    margin-right: 16px;
+}
+
 @media (max-width: 768px) {
     .menu {
         display: block;
