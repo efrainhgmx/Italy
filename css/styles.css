@@ -338,4 +338,8 @@ input[type="email"] {
     .menu input:checked ~ ul {
         transform: none;
     }
+
+    .navigation-desktop {
+        display: none;
+    }
 }

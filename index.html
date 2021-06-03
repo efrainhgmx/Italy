@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Italy | Home</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header-content">
-            <nav role="navigation">
+            <nav role="navigation" class="block">
                 <div class="menu">
                     <input type="checkbox"> 
         
@@ -40,11 +41,38 @@
                 </div>
             </nav>
 
-            <figure class="logo-icon">
+            <nav class="navigation-desktop">
+                <ul class="menu-desktop">
+                    <a href="#">
+                        <li>SHOP</li>
+                    </a>
+                    <a href="#">
+                        <li>BLOG</li>
+                    </a>
+                    <a href="#">
+                        <li>SUBSCRIBE</li>
+                    </a>
+                    <a href="#">
+                        <figure class="logo-icon">
+                            <img src="./assets/icons/logo-vitally.svg" alt="Italy" title="Italy">
+                        </figure>
+                    </a>
+                    <a href="#">
+                        <li>SEARCH</li>
+                    </a>
+                    <a href="#">
+                        <li>ACCOUNT</li>
+                    </a>
+                    <a href="#">
+                        <li>CART(0)</li>
+                    </a>
+                </ul>
+            </nav>
+            <figure class="logo-icon block">
                 <img src="./assets/icons/logo-vitally.svg" alt="Italy" title="Italy">
             </figure>
 
-            <figure class="search-icon">
+            <figure class="search-icon block">
                 <img src="./assets/icons/search.svg" alt="Search" title="Search">
             </figure>
         </div>
