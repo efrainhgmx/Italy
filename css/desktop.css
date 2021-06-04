@@ -24,6 +24,10 @@ a {
     opacity: 1;
 }
 
+.hero-section {
+    height: 70vh;
+}
+
 @media (min-width: 1024px) {
     .block {
         display: none;
