@@ -40,7 +40,8 @@ section {
     padding-top: 20px;
 }
 
-.product-section {
+.product-section,
+.accessories-container {
     display: flex;
     justify-content: space-between;
 }
