@@ -40,6 +40,19 @@ section {
     padding-top: 20px;
 }
 
+.product-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-section figure {
+    width: 420px;
+}
+
+.product-description {
+    width: 50%;
+}
+
 @media (min-width: 1024px) {
     .block {
         display: none;
