@@ -28,6 +28,18 @@ a {
     height: 70vh;
 }
 
+section {
+    margin-block-end: 120px;
+}
+
+.category-images__container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
 @media (min-width: 1024px) {
     .block {
         display: none;
