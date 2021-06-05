@@ -70,6 +70,10 @@ section {
     font-size: 1.3rem;
 }
 
+.footer-content > div {
+    width: 310px;
+}
+
 /* Footer section */
 
 @media (min-width: 1024px) {
