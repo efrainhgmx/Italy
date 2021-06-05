@@ -58,6 +58,13 @@ section {
     width: 780px;
 }
 
+.post-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
 @media (min-width: 1024px) {
     .block {
         display: none;
