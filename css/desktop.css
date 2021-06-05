@@ -58,12 +58,19 @@ section {
     width: 780px;
 }
 
-.post-gallery {
+.post-gallery,
+.footer-content {
     display: flex;
     justify-content: space-between;
     margin: auto;
     width: 90%;
 }
+
+.footer-content {
+    font-size: 1.3rem;
+}
+
+/* Footer section */
 
 @media (min-width: 1024px) {
     .block {

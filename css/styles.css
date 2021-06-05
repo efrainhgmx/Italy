@@ -211,12 +211,12 @@ p span {
 
 .social-media {
     display: flex;
-    width: 104px;
+    justify-content: space-between;
+    width: 125px;
 }
 
 .social-icon {
     width: 24px;
-    margin-right: 16px;
 }
 
 .learn-more ul {
