@@ -5,11 +5,14 @@ const silverImage = 'https://efrainhgmx.com/Italy/assets/images/stainless-steel.
 const goldImage = 'https://efrainhgmx.com/Italy/assets/images/feedback.png';
 
 const goldColor = () => {
-    productImage.src === silverImage ? console.log('Es igual') : console.log('No es igual')
+    productImage.src === silverImage ? productImage.setAttribute("src", goldImage) : console.log('Gold color'); 
+}
+
+const silverColor = () => {
+    productImage.src === silverImage ? console.log('Silver color') : productImage.setAttribute("src", silverImage);
 }
 
 
 
-
-goldButton.addEventListener("click", () =>  console.log("Gold"));
-silverButton.addEventListener("click", () => console.log('Silver'));
+goldButton.addEventListener("click", () => goldColor());
+silverButton.addEventListener("click", () => silverColor());
