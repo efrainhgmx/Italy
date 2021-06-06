@@ -49,7 +49,7 @@ button,
     margin-top: 20px;
 }
 
-button:hover
+button:hover,
 #subscribe:hover,
 .circle:hover {
     cursor: pointer;
