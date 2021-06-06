@@ -3,13 +3,25 @@ const silverButton = document.getElementById('silver');
 const productImage = document.getElementById('product-image');
 const silverImage = 'https://efrainhgmx.com/Italy/assets/images/stainless-steel.png';
 const goldImage = 'https://efrainhgmx.com/Italy/assets/images/feedback.png';
+const color = document.getElementById('color');
 
 const goldColor = () => {
-    productImage.src === silverImage ? productImage.setAttribute("src", goldImage) : console.log('Gold color'); 
+    if(productImage.src === silverImage && color.innerHTML === "Silver") {
+        productImage.setAttribute("src", goldImage);
+        color.innerHTML = "Gold";
+    } else {
+        console.log('Gold color'); 
+    }
+  
 }
 
 const silverColor = () => {
-    productImage.src === silverImage ? console.log('Silver color') : productImage.setAttribute("src", silverImage);
+   if(productImage.src === silverImage && color === "Silver") {
+       console.log("Silver color");
+   } else {
+        productImage.setAttribute("src", silverImage);
+        color.innerHTML = "Silver";
+   }
 }
 
 
