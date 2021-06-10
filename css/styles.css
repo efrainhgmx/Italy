@@ -219,6 +219,10 @@ p span {
     width: 24px;
 }
 
+.social-icon:hover {
+    cursor: pointer;
+}
+
 .learn-more ul {
     padding: 0;
     list-style: none;
