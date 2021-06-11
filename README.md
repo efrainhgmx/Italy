@@ -1,2 +1,4 @@
 # Italy
-Construye la tienda en línea de una marca que va comenzando en el mundo de la merch.
+Discover all kinds of stylish products and accessories in the fashion Italy clothing store. After this project you will be able to launch your own store.
+
+!["Italy"](./assets/images/Italy-web.gif)
