@@ -133,7 +133,19 @@ section {
         width: 120px;
     }
 
+    .add-button {
+        width: 60%;
+    }
+
     .product-description a {
         font-size: 1.8rem;
+    }
+
+    .vitaly-image {
+        width: 920px;
+    }
+
+    .post-image {
+        width: 700px;
     }
 }
