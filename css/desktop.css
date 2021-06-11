@@ -81,3 +81,31 @@ section {
         display: none;
     }
 }
+
+@media (min-width: 1450px) {
+    .logo-icon {
+        width: 250px;
+    }
+
+    h3,
+    .menu-desktop li,
+    .learn-more li {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2.2rem;
+    }
+
+    .learn-more li {
+        line-height: 4rem;
+    }
+
+    .social-icon {
+        width: 34px;
+    }
+}
