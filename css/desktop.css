@@ -108,4 +108,32 @@ section {
     .social-icon {
         width: 34px;
     }
+
+    .category-image {
+        width: 480px;
+    }
+
+    .product-section figure {
+        width: 580px;
+    }
+
+    button, #subscribe {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 280px;
+    }
+
+    .buttons-container {
+        width: 280px;
+    }
+
+    .buttons-container button {
+        width: 120px;
+    }
+
+    .product-description a {
+        font-size: 1.8rem;
+    }
 }
