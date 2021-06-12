@@ -55,6 +55,12 @@ button:hover,
     cursor: pointer;
 }
 
+.wrapper {
+    margin: auto;
+    inline-size: 90%;
+    max-inline-size: 1280px;
+}
+
 /* Header Section */
 .logo-icon {
     width: 120px;
