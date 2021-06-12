@@ -62,7 +62,6 @@ section {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 90%;
 }
 
 .footer-content {
