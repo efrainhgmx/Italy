@@ -93,6 +93,10 @@ button:hover,
 }
 
 
+.category-image {
+    margin: auto;
+}
+
 .category-card {
     text-align: center;
     margin-block-end: 30px;
@@ -102,7 +106,6 @@ button:hover,
 .accessory-image,
 .vitaly-image {
     margin:25px auto;
-    width: 280px;
 }
 
 .product-description,
@@ -349,8 +352,8 @@ input[type="email"] {
         display: none;
     }
 
-    .category-image {
+    .category-image,
+    .vitaly-image {
         width: 280px;
-        margin: auto;
     }
 }

@@ -35,7 +35,6 @@ section {
 .category-images__container {
     display: flex;
     justify-content: space-between;
-    width: 90%;
     margin: auto;
     padding-top: 20px;
 }
