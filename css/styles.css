@@ -92,10 +92,6 @@ button:hover,
     text-align: center;
 }
 
-.category-image {
-    width: 280px;
-    margin: auto;
-}
 
 .category-card {
     text-align: center;
@@ -351,5 +347,10 @@ input[type="email"] {
 
     .navigation-desktop {
         display: none;
+    }
+
+    .category-image {
+        width: 280px;
+        margin: auto;
     }
 }
