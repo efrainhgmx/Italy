@@ -5,6 +5,8 @@ Discover all kinds of stylish products and accessories in the fashion Italy clot
 
 Italy. Build the online store of a start-up brand in the world of merch.
 
+Landing page in Vanilla JavaScript
+
 ## 📲 Desing 100% Responsive
 
 !["Italy Store design"](./assets/images/Thumbnail-italy.jpg)
