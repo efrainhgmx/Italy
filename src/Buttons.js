@@ -9,7 +9,7 @@ const goldColor = () => {
     if(productImage.src === silverImage && color.innerHTML === "Silver") {
         productImage.setAttribute("src", goldImage);
         color.innerHTML = "Gold";
-    } else  if(productImage.src === silverImage && color.innerHTML === "Plata") {
+    } else if(productImage.src === silverImage && color.innerHTML === "Plata") {
         productImage.setAttribute("src", goldImage);
         color.innerHTML = "Oro";
     }
@@ -20,7 +20,7 @@ const goldColor = () => {
 }
 
 const silverColor = () => {
-   if(productImage.src === silverImage && color === "Silver") {
+   if(productImage.src === silverImage && color === "Silver" || productImage.src === silverImage && color === "Plata") {
        console.log("Silver color");
    } else {
         productImage.setAttribute("src", silverImage);
