@@ -9,7 +9,11 @@ const goldColor = () => {
     if(productImage.src === silverImage && color.innerHTML === "Silver") {
         productImage.setAttribute("src", goldImage);
         color.innerHTML = "Gold";
-    } else {
+    } else  if(productImage.src === silverImage && color.innerHTML === "Plata") {
+        productImage.setAttribute("src", goldImage);
+        color.innerHTML = "Oro";
+    }
+    else {
         console.log('Gold color'); 
     }
   
