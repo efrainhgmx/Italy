@@ -20,12 +20,12 @@ const goldColor = () => {
 }
 
 const silverColor = () => {
-   if(productImage.src === silverImage && color === "Silver" || productImage.src === silverImage && color === "Plata") {
+   if(productImage.src === silverImage && color === "Silver" || productImage.src === silverImage && color === "Plata" ) {
        console.log("Silver color");
-   } else {
+   } else if(color !== "Silver" || "Plata"){
         productImage.setAttribute("src", silverImage);
-        color.innerHTML = "Silver";
-   }
+       color === "Gold" ? color.innerHTML = "Silver" : color.innerHTML = "Plata";
+   } 
 }
 
 
